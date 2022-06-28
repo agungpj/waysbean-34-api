@@ -1,5 +1,4 @@
 "use strict";
-const imgsample = require("../uploads/imgsample.png");
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -18,7 +17,7 @@ module.exports = {
         {
           title: "toppingsample",
           price: 20000, //123456
-          image: imgsample,
+          image: "sampleimg",
           idUser: 1,
         },
       ],
